@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="naya">
+    <meta name="keywords" lang="es" content="etiqueta, html,paginas">
+    <meta name="description" lang="es" content="listas de etiqueta">
+    <title>prueba</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="naya">
+    <meta name="keywosds" lang="es" content="etiquetas, html, label, input paginas">
+    <meta name="description" lang="es" content="listas de etiquesta de html para formularioas">
+    <title>estructura-general</title>
+</head>
+<body>
+    <header>
+        <h1 id="inicio"> bienvenido a nuestra pagina </h1>
+        <h2>estructura general del procyectos</h2>
+        <a href="#inicio"><img src="img/descarga (1).jpeg"  width="150" height="150" alt="logotipo"></a>
+        <nav>
+            <ul>
+                <li><a href="#inicio">inicio</a></li>
+                <li><a href="#acerca">acerca de</a></li>
+                <li><a href="#sevicio">servico </a></li>
+                <li><a href="#contactos">contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+  <!--seccion principal del contenido-->
+  <main>
+    <section id="acerca">
+<h2> acerca de</h2>
+<p>en esta seccion puedes leer sobre quien soy y que hago</p>
+<img src="img/descarga (3).jpeg"width="300" height="200" alt="tinkerbell"><br>
+<p>video relacionado</p><br>
+<video controls src="media/11168-228530158_small.mp4" width="500" height="400" ></video> <br>
+<a href="#inicio"> volver a inicio</a>
+    </section>
+    <section id="servicio">
+        <h2> servicio</h2>
+        <p>ofrecemos  una variedad de servicios para ayudar a crecer</p>
+        <img src="img/descarga (2).jpeg"width="600" height="400" alt="mariposa"><br>
+        <h3>escucha este audio</h3><br>
+        <audio controls src="media/slow-motion-126763.mp3"></audio><br>
+        <a href="#inicio"> volver a inicio</a>
+            </section>
+            <section id="contacto">
+                <h2> contacto</h2>
+                <p>ponte en contacto por medio de este formulario </p>
+                <div class="contenedor">   
+                    <h2>formulario de conctatos</h2>
+                    <form action="/eniar formulario" method="post">
+                        <!--nombre-->
+                        <div class="formulario">
+                            <label for="nombre"> nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required minlength="3" maxlength="50" placeholder="ingrese su nombre"
+                            >
+
+                        </div>
+                          </div>
+                          <!--correo electronico-->
+                          <div class="formulario">
+                            <label for="email"> correo electronico:</label>
+                            <input type="email" id="email" name="email" required  placeholder="tuusuario@ejemplo.com"
+>
+                          </div>
+                          </div>
+                          <!--telefono-->
+                          <div class="formulario">
+                            <label for="telefono"> telefono</label>
+                            <input type="telefono" id="telefono" name="telefono" required  pattern="[0-9]-(3)[0-9]-(4)[0-9](4)" placeholder="506-2254-2627"
+>
+                          </div>
+                        </div><br><br>
+                        <!--asunto-->
+                        <div class="formulario">
+                          <label for="asunto"> asunto:</label>
+                          <input type="asunto" id="asunto" name="asunto" required min="5" maxlength="100" placeholder="motivo de su mensaje"
+>
+                        </div>
+                    </div><br>
+                    <!--mensaje-->
+                    <div class="formulario">
+                      <label for="mensaje"> mensaje:</label>
+                     <textarea name="mensaje" id="mensaje" required min="10" maxlength="500" placeholder="escriba aqui su mensaje"></textarea>
+>
+                    </div><br>
+                       <!--enviar-->   
+                       <input type="submit" value="eniar">
+                    
+                    </form>  
+                </div> <br><br>
+                <a href="#inicio"> volver a inicio</a>
+                    </section>
+              </main>
+              <!--barra lateral con informacion adicional-->
+              <aside>
+              <h3> noticias recientes</h3>
+              <p>ultimas actualizacines sobre mis servicio y proyrctos</p>
+              <img src="img/descarga (2).jpeg" width="250" height="150" alt="ositos cariñositoas">
+              </aside><br>
+
+         <!--pie de pagina-->
+         <footer>
+            <p>&copy; 2024 mi pagina web. todos los derechos resevados</p>
+            <p><a href="http//www.ina.ac.cr">visita nuestra web</a></p><br>
+            <a href="#inicio"> volver a inicio</a>
+         </footer>
+</body>
+</html>
